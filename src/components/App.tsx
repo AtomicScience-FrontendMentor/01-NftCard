@@ -1,11 +1,12 @@
 import React from 'react';
-import '../styles/App.css';
 import ComponentShowcase from './ComponentShowcase';
-import NftCard from './NftCard';
+import NftCard from './NftCard/NftCard';
 
 function App() {
   return (
     <ComponentShowcase>
+        <NftCard/>
+        <NftCard/>
         <NftCard/>
     </ComponentShowcase>
   );
