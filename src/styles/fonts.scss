@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+$fallback-font: sans-serif;
+
+@mixin font {
+    font-family: 'Outfit', $fallback-font;
+}
+
+.semi-bold-font {
+    @include font;
+    font-weight: 600;
+}
+
+.regular-font {
+    @include font;
+    font-weight: 400;
+}
+
+.light-font {
+    @include font;
+    font-weight: 300;
+}
