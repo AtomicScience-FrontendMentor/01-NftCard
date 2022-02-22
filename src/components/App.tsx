@@ -6,8 +6,6 @@ function App() {
   return (
     <ComponentShowcase>
         <NftCard/>
-        <NftCard/>
-        <NftCard/>
     </ComponentShowcase>
   );
 }

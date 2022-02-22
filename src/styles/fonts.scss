@@ -4,19 +4,5 @@ $fallback-font: sans-serif;
 
 @mixin font {
     font-family: 'Outfit', $fallback-font;
-}
-
-.semi-bold-font {
-    @include font;
-    font-weight: 600;
-}
-
-.regular-font {
-    @include font;
-    font-weight: 400;
-}
-
-.light-font {
-    @include font;
-    font-weight: 300;
+    font-size: 18px;
 }

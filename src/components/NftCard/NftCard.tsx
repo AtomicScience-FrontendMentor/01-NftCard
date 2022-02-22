@@ -2,6 +2,7 @@ import * as React from 'react';
 import "../../styles/fonts.scss"
 import "../../styles/nftCard.scss"
 import NftImage from './NftImage';
+import NftStatusBar from "./NftStatusBar";
 
 interface NftCardProps {
     
@@ -10,9 +11,10 @@ interface NftCardProps {
 const NftCard: React.FunctionComponent<NftCardProps> = () => {
     return <div className='nft-card'> 
         <NftImage onClick={() => {}}/>
-        <p className="semi-bold-font"> Semi-bold font </p>
-        <p className="regular-font"> Regular font </p>
-        <p className="light-font"> Light font </p>
+        <p className="title"> Equilibrium #3429 </p>
+        <p className="description"> Our Equilibrium collection promotes balance and calm. </p>
+        <NftStatusBar/>
+        <p className="author"> </p>
     </div>;
 }
  

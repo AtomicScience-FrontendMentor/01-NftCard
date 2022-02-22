@@ -1,10 +1,44 @@
 @import "./colors.scss";
+@import "./fonts.scss";
 
 .nft-card {
     width: 300px;
     background-color: $card-background-color;
     padding: 20px;
     flex-shrink: 0;
+    @include font;
+
+    .title {
+        color: $white;
+        font-weight: 600;
+    }
+
+    .description {
+        color: $minor-text-color;
+        font-weight: 300;
+    }
+
+    .nft-status-bar {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;
+
+        div {
+            font-size: 16px;
+            color: $active-color;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .nft-cost {
+            color: $active-color;
+        }
+
+        .nft-age {
+            color: $minor-text-color
+        }
+    }
 
     .nft-image {
         img {
