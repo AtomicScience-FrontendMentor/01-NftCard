@@ -14,7 +14,7 @@ const NftCard: React.FunctionComponent<NftCardProps> = () => {
         <p className="title"> Equilibrium #3429 </p>
         <p className="description"> Our Equilibrium collection promotes balance and calm. </p>
         <NftStatusBar/>
-        <p className="author"> </p>
+        <hr/>
     </div>;
 }
  
