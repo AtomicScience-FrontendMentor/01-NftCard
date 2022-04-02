@@ -9,8 +9,16 @@
     @include font;
 
     .title {
-        color: $white;
-        font-weight: 600;
+      font-weight: 600;
+
+      display: block;
+      margin-top: 16px;
+      text-decoration: none;
+      color: $white;
+
+      &:hover {
+        color: $active-color;
+      }
     }
 
     .description {
@@ -52,6 +60,28 @@
         border-top: 1px solid $separator-color;
         border-bottom: 0px;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 16px;
+    }
+
+    .attribution {
+      display: flex;
+      align-items: center;
+
+      font-size: 16px;
+      color: $minor-text-color;
+
+      .avatar {
+        height: 32px;
+        margin-right: 8px;
+      }
+      
+      .author {
+        text-decoration: none;
+        color: $white;
+
+        &:hover {
+          color: $active-color;
+        }
+      }
     }
 }
