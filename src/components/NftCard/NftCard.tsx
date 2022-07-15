@@ -18,7 +18,7 @@ const NftCard: React.FunctionComponent<NftCardProps> = () => {
         <hr/>
         <div className="attribution"> 
           <img src={ image } className="avatar" alt="Author"/>
-          Creation of <a className="author" href="/">Jules Wyvern</a>
+          Creation of <a className="author" href="/"> Jules Wyvern</a>
         </div>
     </div>;
 }
