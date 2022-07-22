@@ -1,0 +1,14 @@
+@mixin fullScreenElement {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+
+  margin: 0;
+}
+
+.app {
+  @include fullScreenElement;
+  display: flex;
+
+  flex-flow: column;
+}

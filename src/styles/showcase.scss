@@ -1,23 +1,16 @@
 @import "./colors.scss";
 
-@mixin fullScreenElement {
-    width: 100%;
-    min-height: 100vh;
-    height: 100%;
-
-    margin: 0;
-}
-
 @mixin centerFlexContent {
     justify-content: center;
     align-items: center;
 }
 
 .showcase {
-    @include fullScreenElement;
     @include centerFlexContent;
 
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+
+    flex-grow: 1;
 }
