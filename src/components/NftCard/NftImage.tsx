@@ -6,7 +6,7 @@ interface NftImageProps {
 
 const NftImage: React.FunctionComponent<NftImageProps> = (props) => {
     return <div className="nft-image"> 
-        <img src="image-equilibrium.jpg"></img>
+        <img src="image-equilibrium.jpg" alt="Equilibrium Collection"></img>
     </div>;
 }
  

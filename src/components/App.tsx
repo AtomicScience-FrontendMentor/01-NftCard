@@ -1,4 +1,3 @@
-import React from 'react';
 import ComponentShowcase from './ComponentShowcase';
 import NftCard from './NftCard/NftCard';
 
